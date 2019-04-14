@@ -7,6 +7,7 @@ RUN apk add --no-cache git && \
     go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-local
 
 FROM alpine
+
 MAINTAINER jeremy <lookwzj@gmail.com>
 
 ENV VERSION 0.26.0
